@@ -361,7 +361,7 @@ Then run the following commands:
 
   git clone --recursive https://github.com/Microsoft/LightGBM ; cd LightGBM
   mkdir build ; cd build
-  cmake -DUSE_SWIG=ON ..
+  cmake3 -DUSE_SWIG=ON ..
   make -j4
 
 This will generate a JAR file containing the LightGBM `C API <./Development-Guide.rst#c-api>`__ wrapped by SWIG.
